@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.indicadoresapp.InicioFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_inicio" >
+    </fragment>
+
+    <!--Muestreos a Detalle-->
+    <fragment
+        android:id="@+id/muestreosFragment"
+        android:name="com.example.indicadoresapp.muestreos.MuestreosFragment"
+        android:label="Muestreos" >
+        <action
+            android:id="@+id/action_muestreosFragment_to_detalle_MuestreosFragment"
+            app:destination="@id/detalle_MuestreosFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_muestreosFragment_to_nuevoMuestreo"
+            app:destination="@id/nuevoMuestreo"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+
+    <!--Detalle a Muestreos-->
+    <fragment
+        android:id="@+id/detalle_MuestreosFragment"
+        android:name="com.example.indicadoresapp.muestreos.Detalle_MuestreosFragment"
+        android:label="Editar solicitud" >
+        <action
+            android:id="@+id/action_detalle_MuestreosFragment_to_muestreosFragment"
+            app:destination="@id/muestreosFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right"
+            app:popEnterAnim="@anim/from_right"
+            app:popExitAnim="@anim/to_left" />
+        <argument
+            android:name="idMuestreo"
+            app:argType="integer" />
+        <argument
+            android:name="cod_Prod"
+            app:argType="string" />
+        <argument
+            android:name="productor"
+            app:argType="string" />
+        <argument android:name="cod_Campo"
+            app:argType="integer" />
+        <argument
+            android:name="campo"
+            app:argType="string" />
+        <argument
+            android:name="inicio_cosecha"
+            app:argType="string" />
+        <argument
+            android:name="telefono"
+            app:argType="string" />
+        <argument
+            android:name="cajasEstimadas"
+            app:argType="integer" />
+        <argument
+            android:name="fecha_ejecucion"
+            app:argType="string" />
+        <argument android:name="sector"
+            app:argType="string" />
+        <argument android:name="estatus"
+            app:argType="string" />
+        <argument android:name="incidencia"
+            app:argType="string" />
+        <argument android:name="propuesta"
+            app:argType="string" />
+        <argument
+            android:name="liberacion"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_detalle_MuestreosFragment_to_inocuidadMuestreoFragment"
+            app:destination="@id/inocuidadMuestreo"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_detalle_MuestreosFragment_to_calidadMuestreoFragment"
+            app:destination="@id/calidadMuestreo"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_detalle_MuestreosFragment_to_produccionMuestreoFragment"
+            app:destination="@id/produccionMuestreo"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nuevoMuestreo"
+        android:name="com.example.indicadoresapp.muestreos.NuevoMuestreo"
+        android:label="Nuevo Muestreo" >
+        <action
+            android:id="@+id/action_nuevoMuestreo2_to_muestreosFragment"
+            app:destination="@id/muestreosFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/inocuidadMuestreo"
+        android:name="com.example.indicadoresapp.muestreos.InocuidadMuestreoFragment"
+        android:label="Agregar Fecha/sectores" >
+        <action
+            android:id="@+id/action_inocuidadMuestreoFragment_to_detalle_MuestreosFragment"
+            app:destination="@id/detalle_MuestreosFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right"
+            app:popEnterAnim="@anim/from_right"
+            app:popExitAnim="@anim/to_left" />
+        <argument
+            android:name="idMuestreo"
+            app:argType="integer" />
+        <argument
+            android:name="cod_Prod"
+            app:argType="string" />
+        <argument
+            android:name="productor"
+            app:argType="string" />
+        <argument android:name="cod_Campo"
+            app:argType="integer" />
+        <argument
+            android:name="campo"
+            app:argType="string" />
+        <argument
+            android:name="fecha_ejecucion"
+            app:argType="string" />
+        <argument android:name="sector"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/calidadMuestreo"
+        android:name="com.example.indicadoresapp.muestreos.CalidadMuestreoFragment"
+        android:label="Evaluar Calidad"
+        tools:layout="@layout/fragment_calidad_muestreo" >
+        <action
+            android:id="@+id/action_calidadMuestreoFragment_to_detalle_MuestreosFragment"
+            app:destination="@id/detalle_MuestreosFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right"
+            app:popEnterAnim="@anim/from_right"
+            app:popExitAnim="@anim/to_left" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/produccionMuestreo"
+        android:name="com.example.indicadoresapp.muestreos.ProduccionMuestreoFragment"
+        android:label="Liberar solicitud"
+        tools:layout="@layout/fragment_produccion_muestreo" >
+        <action
+            android:id="@+id/action_produccionMuestreoFragment_to_detalle_MuestreosFragment"
+            app:destination="@id/detalle_MuestreosFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right"
+            app:popEnterAnim="@anim/from_right"
+            app:popExitAnim="@anim/to_left" />
+    </fragment>
+
+</navigation>

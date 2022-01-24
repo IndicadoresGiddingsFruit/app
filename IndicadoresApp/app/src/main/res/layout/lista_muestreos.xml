@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+        <ImageView
+            android:id="@+id/icono_muestreo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+           />
+        <TextView
+            android:id="@+id/cod_prod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cod_prod"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/icono_muestreo"
+            android:layout_toEndOf="@id/icono_muestreo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/productor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="productor"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_below="@id/cod_prod"
+            android:layout_toRightOf="@id/icono_muestreo"
+            android:layout_toEndOf="@id/icono_muestreo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/campo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="campo"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_below="@id/productor"
+            android:layout_toRightOf="@id/icono_muestreo"
+            android:layout_toEndOf="@id/icono_muestreo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+
+        <TextView
+            android:id="@+id/sector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sector"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_below="@id/campo"
+            android:layout_toRightOf="@id/icono_muestreo"
+            android:layout_toEndOf="@id/icono_muestreo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/fecha_solicitud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fecha_solicitud"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_below="@id/sector"
+            android:layout_toRightOf="@id/icono_muestreo"
+            android:layout_toEndOf="@id/icono_muestreo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/asesor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asesor"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_below="@id/fecha_solicitud"
+            android:layout_toRightOf="@id/icono_muestreo"
+            android:layout_toEndOf="@id/icono_muestreo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

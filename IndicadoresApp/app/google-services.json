@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "426922905703",
+    "firebase_url": "https://indicadoresmovil-f9abb.firebaseio.com",
+    "project_id": "indicadoresmovil-f9abb",
+    "storage_bucket": "indicadoresmovil-f9abb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426922905703:android:a1fc796b300c6f733bc4c2",
+        "android_client_info": {
+          "package_name": "com.example.indicadoresapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426922905703-2sedqfbgu4elsco974ngebvff92mq6ki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.indicadoresapp",
+            "certificate_hash": "8757b969a7a837d342a2c2ea416a6f2d840041cc"
+          }
+        },
+        {
+          "client_id": "426922905703-7nia28ubsegbrhr4ujo6spni6ds0o8cl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjljYM5KpySU9yWbRuJJfQxK-9gQjPKh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426922905703-7nia28ubsegbrhr4ujo6spni6ds0o8cl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

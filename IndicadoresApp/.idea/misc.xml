@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/drawable-v24/ic_clear.xml" value="0.28541666666666665" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/drawable/btn_off.xml" value="0.2015625" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/drawable/btn_on.xml" value="0.2015625" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/drawable/btn_secondary.xml" value="0.2015625" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/drawable/custom_input.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/drawable/fondo_btn.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/drawable/fondo_btn_secondary.xml" value="0.2015625" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/drawable/ic_add.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/drawable/ic_no_data.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/layout/activity_home.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/layout/activity_login.xml" value="0.19067028985507245" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/layout/alert_dialog.xml" value="0.4" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/layout/app_bar_home.xml" value="0.2" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/layout/content_home.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/layout/fragment_calidad_muestreo.xml" value="0.23072916666666668" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/layout/fragment_detalle__muestreos.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/layout/fragment_first.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/layout/fragment_inicio.xml" value="0.4" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/layout/fragment_inocuidad_muestreo.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/layout/fragment_muestreos.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/layout/fragment_nuevo_muestreo.xml" value="0.4" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/layout/fragment_produccion_muestreo.xml" value="0.23072916666666668" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/layout/fragment_scrolling.xml" value="0.28020833333333334" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/layout/lista_muestreos.xml" value="0.6" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/layout/lista_sectores.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/layout/nav_header_home.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/menu/activity_home_drawer.xml" value="0.2" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/menu/home.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/menu/menu_detail_muestreo.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/menu/menu_main.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/marholym/Desktop/App/IndicadoresApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.20052083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

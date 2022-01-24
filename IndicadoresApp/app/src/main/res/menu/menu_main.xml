@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.indicadoresapp.HomeActivity">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/filtrar_notifications"
+            android:title="@string/filter_mainRecycler">
+            <menu>
+                <item
+                    android:id="@+id/high"
+                    android:title="@string/prioridad_alta"></item>
+                <item
+                    android:id="@+id/medium"
+                    android:title="@string/prioridad_media"></item>
+                <item
+                    android:id="@+id/low"
+                    android:title="@string/prioridad_baja"></item>
+            </menu>
+        </item>
+    </group>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
